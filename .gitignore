@@ -1,0 +1,35 @@
+# --- macOS ---
+.DS_Store
+
+# --- Android / Gradle ---
+.gradle/
+.idea/
+.kotlin/
+local.properties
+**/build/
+*.iml
+captures/
+
+# --- Android Studio scratch ---
+*.hprof
+
+# --- ESP-IDF / CMake ---
+flight-software/build/
+flight-software/sdkconfig
+flight-software/sdkconfig.old
+flight-software/managed_components/
+flight-software/.clangd
+flight-software/.cproject
+flight-software/.project
+
+# --- editors ---
+*.swp
+*.swo
+.vscode/
+*~
+
+# --- shipped APK lives in releases, not in tree ---
+*.apk
+
+# --- paper PDF: added at final exhibition cut, not before ---
+paper.pdf
