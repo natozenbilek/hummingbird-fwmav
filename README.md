@@ -8,9 +8,12 @@ Compose, acts as the BLE GATT central and commands the throttle in real
 time over a 9-byte CRC-protected frame, while receiving 20-byte CRC-protected
 telemetry at 10 Hz.
 
-Demo (bench, 2026-05-11): https://youtu.be/utHcj4ybsKc
+Demo (bench, 2026-05-11):
 
-The full technical report is [`paper.pdf`](paper.pdf).
+[![Bench demo video — 2026-05-11](https://img.youtube.com/vi/utHcj4ybsKc/maxresdefault.jpg)](https://youtu.be/utHcj4ybsKc)
+
+The full technical report is [`paper.pdf`](paper.pdf). The exhibition poster
+is [`poster.pdf`](poster.pdf).
 
 ## What's in this repository
 
@@ -18,6 +21,7 @@ The full technical report is [`paper.pdf`](paper.pdf).
 flight-software/   ESP32-C3 firmware (ESP-IDF v5.3 + FreeRTOS)
 remote-control/    Android client (Kotlin / Jetpack Compose / Material 3)
 paper.pdf          Accompanying conference-format report (IEEE template)
+poster.pdf         A1 exhibition poster (Hacettepe CS Capstone Fair 2026)
 LICENSE            CC0 1.0 Universal
 ```
 
